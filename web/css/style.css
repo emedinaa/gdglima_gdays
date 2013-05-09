@@ -22,7 +22,7 @@ header{
 }
 header #headerText{
    position: relative;
-    top: -300px;
+    top: -290px;
     left: 30%;
     width: 500px;
     height:110px;
@@ -33,12 +33,13 @@ header #headerText{
 }
 header #subtext{
    
-    top:20px;
+    top:10px;
     position: relative;
     color:#BFB9B9;
     font-size:17px;
     font-family: "open sans",arial,sans-serif;
     font-weight: 300;
+    width: 700px;
    
 }
 header #linea{
@@ -53,7 +54,7 @@ header #gplus{
     width: 115px;
     height: 42px;
     position:relative;
-    top:-410px;
+    top:-390px;
     left:80%;
 }
 header #gplus img{
@@ -448,3 +449,14 @@ a:focus {
   /*text-decoration: underline;*/
 }
 
+.featurette-heading {
+font-size: 50px;
+font-weight: 300;
+line-height: 1;
+letter-spacing: -1px;
+color: rgb(94, 94, 94);
+}
+
+.muted {
+color: #999999;
+}
