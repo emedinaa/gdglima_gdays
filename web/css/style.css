@@ -460,3 +460,58 @@ color: rgb(94, 94, 94);
 .muted {
 color: #999999;
 }
+
+.evenbrite {
+
+margin-top: -100px;
+padding: 200px;
+
+width: 1000px;
+height: 100px;
+}
+
+#holder {
+width: 620px;
+}
+
+.googlers {
+
+margin-top: -100px;
+padding: 200px;
+
+width: 1000px;
+height: 100px;
+}
+
+.business {
+
+margin-top: 20px;
+padding: 200px;
+
+
+width: 1000px;
+height: 500px;
+}
+
+.business2 {
+
+margin-top: -400px;
+padding: 200px;
+
+
+width: 1000px;
+height: 500px;
+}
+
+.developers {
+
+margin-top: -440px;
+padding: 200px;
+
+
+width: 1000px;
+height: 300px;
+}
+
+
+
