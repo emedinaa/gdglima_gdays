@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/custom_animations.js"></script>
+	<script src="js/custom_easing.js"></script>
+	<script src="js/jSlider.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		 
+			$(".slider").jSlider({elem:"div",images:true, animation: "random",auto_slide: true, auto_slide_interval:4000, infinite: true, speed: 1200});
+		});
+	</script>
+
+</head>
+<body>
+	<header><img src="img/GDayPeru-600.png"/><div id="linea"></div><div id="headerText">Google for Developers & <br>Google for Business <div id="subtext">"Promueve, Comparte, Diviertete, Aprende,  Informa, Conecta, Desarrolla, Inspira"</div></div>
+	<div id="gplus"><img src="img/gplus.png"></div>
+
+	</header>
+	<div class="menu">
+		<nav id="navegador">
+			<a href="index.html" >
+				<div class="circulo" id="c-presentacion" >
+				  <span class="icoMenu" id="ico-presentacion" >B</span>
+	              <div class="textMenu">
+	                <h3 class="tituMenu" id="tt-presentacion">PRESENTACI&Oacute;N</h3>
+	                <h3 class="subTituMenu" id="st-presentacion">Lo que se viene</h3>
+	              </div>
+				</div>
+			</a>
+			<a href="html/agenda.html">
+			<div class="circulo" id="c-agenda">
+				  <span class="icoMenu" id="ico-agenda">B</span>
+	              <div class="textMenu">
+	                <h3 class="tituMenu" id="tt-agenda">AGENDA</h3>
+	                <h3 class="subTituMenu" id="st-agenda">Lo que se <br>presentar&aacute;</h3>
+	              </div>
+				</div>
+			</a>
+			<a href="html/speakers.html">
+			<div class="circulo" id="c-speaker">
+				  <span class="icoMenu" id="ico-speaker">B</span>
+	              <div class="textMenu">
+	                <h3 class="tituMenu" id="tt-speaker">SPEAKERS</h3>
+	                <h3 class="subTituMenu" id="st-speaker">Los que estar&aacute;n</h3>
+	              </div>
+				</div>
+			</a>
+			<a href="html/sponsors.html">
+			<div class="circulo" id="c-sponsor">
+				  <span class="icoMenu" id="ico-sponsor">B</span>
+	              <div class="textMenu">
+	                <h3 class="tituMenu" id="tt-sponsor">SPONSORS</h3>
+	                <h3 class="subTituMenu" id="st-sponsor">Los que apoyan <br>la causa</h3>
+	              </div>
+				</div>
+			</a>
+			<a href="html/fotos.html">
+			<div class="circulo" id="c-fotos">
+				  <span class="icoMenu" id="ico-fotos">B</span>
+	              <div class="textMenu">
+	                <h3 class="tituMenu" id="tt-fotos">FOTOS</h3>
+	                <h3 class="subTituMenu" id="st-fotos">Las &uacute;ltimas <br>versiones</h3>
+	              </div>
+				</div>
+			</a>
+			<a href="html/registrate.html">
+			<div class="circulo" id="c-registrate">
+				  <span class="icoMenu" id="ico-registrate">B</span>
+	              <div class="textMenu">
+	                <h3 class="tituMenu" id="tt-registrate">REGISTRATE</h3>
+	                <h3 class="subTituMenu" id="st-registrate"> Ahora es <br>tu turno</h3>
+	              </div>
+				</div>
+			</a>
+		</nav>
+	</div>
+
+	<section id="contenido">
+		<hr color="#D7D9DD">
+
+		<div id="titu-contenido">Lo que se viene</div>
+		<div class="slider">
+		<!-- los elementos dentro del slider, tantos como deseemos -->
+		<div>
+		<a href="#">
+		<img src="img/slider_01.jpg" width="450" height="262" border="0" /> </a></div>
+		<div><a href="#"><img src="img/slider_02.jpg" width="450" height="262" border="0" /></a></div>
+		<div><a href="#"><img src="img/slider_03.jpg" width="450" height="262" border="0" /></a></div>
+		<!-- la navegación la podemos poner donde querramos en el documento -->
+		<a href="#" class="next">&rarr;</a>
+		<a href="#" class="prev">&larr;</a>
+		</div><!-- slider -->
+
+
+
+
+
+
+
+
+
+		<article id="desc1">
+			<h3>Gdays Per&uacute;</h3>
+			<p class="parrafo">Es un evento organizado por las comunidades de negocio y desarrollo de software de Google en Per&uacute; (GBG Lima + GDG Lima)  que tiene como objetivo ayudar a encontrar soluciones, herramientas y tecnolog&iacute;as que se adapten a las necesidades de todos aquellos interesados en los segmentos:</p>
+			<p class="parrafo"><ul>
+				<li>Google for Developers.</li>
+				<li>Google for Business.</li>
+				</ul>
+			</p>
+		</article>
+		<!--<div id="slide">
+			<iframe  src="http://www.youtube.com/embed/wKJ9KzGQq0w" frameborder="0" allowfullscreen></iframe>
+		</div>-->
+			
+		<article id="desc2">
+			
+			<p class="parrafo2">En el segmento Google for Developers, contaremos con la presencia de los integrantes del GDG Lima que participaron activamente del Google I/O 2013; donde podr&aacute;n presentar las novedades de los &uacute;ltimos avances tecnol&oacute;gicos para desarrolladores.
+			</p>
+			<p class="parrafo2">El segmento Google for Business, est&aacute; orientado a empresas, instituciones y agencias que mediante experiencias podr&aacute;n compartir las mejores pr&aacute;cticas para realizar negocios utilizando productos de Google.
+			</p>
+			<p class="parrafo2">Se contar&aacute; con la presencia de representantes oficiales de Google. Grandes y reconocidos ponentes del sector de tecnolog&iacute;a y negocios a nivel nacional e internacional que compartir&aacute;n atractivas conferencias, tendencias y una enorme interactividad con las soluciones de Google.
+			</p class="parrafo2">
+			
+		</article>
+
+
+	</section>
+	<footer>
+		<div>Siguenos en Vivo por Google+</div>
+	</footer>
+</body>
+</html>
+
+<!--<div class="li" style="position: relative; top: 150px;">
+<span class="icoMenu">B</span>
+              <div class="textMenu">
+                <h3 class="tituMenu">PRESENTACI&Oacute;N</h3>
+                <h3 class="subTituMenu">Mensaje de la presentaci&oacute;n</h3>
+              </div>
+</div>-->
