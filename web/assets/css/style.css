@@ -10,11 +10,11 @@
 }
 header img{
     height: 176px;
-    left: 10%;
+    /*left: 10%;*/
     position: relative;
     top: 7px;
     width: 224px;
-    
+
 }
 header{
     width: 100%;
@@ -23,7 +23,7 @@ header{
 header #headerText{
    position: relative;
     top: -290px;
-    left: 30%;
+    left: 25%;
     width: 500px;
     height:110px;
     color:#9fa2a6;
@@ -32,7 +32,7 @@ header #headerText{
     font-weight: 300;
 }
 header #subtext{
-   
+
     top:10px;
     position: relative;
     color:#BFB9B9;
@@ -40,12 +40,12 @@ header #subtext{
     font-family: "open sans",arial,sans-serif;
     font-weight: 300;
     width: 700px;
-   
+
 }
 header #linea{
     position: relative;
     top: -170px;
-    left: 28%;
+    left: 23%;
     height: 150px;
     width: 2px;
     background-color: #0070b8;;
@@ -81,8 +81,8 @@ header #gplus img{
    height: 153px;
    margin: 0px auto;
    background-color: #0070b8;
-   
-   
+
+
 
 }
 .circulo{
@@ -97,11 +97,11 @@ header #gplus img{
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    
+
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    
+
     -webkit-transition: all 400ms linear;
     -moz-transition: all 400ms linear;
     -o-transition: all 400ms linear;
@@ -235,7 +235,7 @@ header #gplus img{
     -moz-box-shadow:0px 0px 3px #000000;
     -webkit-box-shadow:0px 0px 3px #000000;
     font-family: 'Terminal Dosis', Arial, sans-serif;
-    
+
 }*/
 
 
@@ -254,8 +254,8 @@ header #gplus img{
 
 /*Slider*/
 .slider {
-    width:450px; 
-    height:262px;  
+    width:450px;
+    height:262px;
     position:relative;
     left:50%;
     top: -11px;
@@ -291,7 +291,7 @@ ul.navi li a.active {background-color:#fff;}
     text-align: justify;
     color: #8a8a8a;
     font-size: 12pt;
-    
+
 }
 #desc2{
     width:840px;
@@ -317,7 +317,7 @@ ul.navi li a.active {background-color:#fff;}
     border: 3px #d6d7d8 solid;
     width:420px;
     height:237px;
-    
+
 }
 #slide{
     width: 420px;
@@ -329,7 +329,7 @@ ul.navi li a.active {background-color:#fff;}
     margin-top: 10px;
     margin-bottom: 10px;
     font-size:18px;
-    
+
 }
 .parrafo2{
     font-size: 18px;
@@ -450,7 +450,7 @@ a:focus {
 }
 
 .featurette-heading {
-font-size: 50px;
+/*font-size: 50px;*/
 font-weight: 300;
 line-height: 1;
 letter-spacing: -1px;
