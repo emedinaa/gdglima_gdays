@@ -343,17 +343,27 @@ width: 100%;
 width: 100%;
 }
 
+.table th, .table td{
+    text-align: center;
+    border-top: 2px solid #FFFFFF;
+}
+
+.table-bordered td {
+    border-left: 2px solid #FFFFFF;
+}
+
+.table-bordered, .table-bordered th{
+    border: none;
+}
 
 /*Footer*/
 footer{
     margin-top: 0px;
     background-color: #FFFFFF ;
     color: #000;
-
     font-size: 14px;
     height: 50px;
     position: relative;
-    padding: 20px;
 
 }
 footer div{
@@ -391,7 +401,7 @@ footer div{
 }
 #celdas tr, th, td{
     /*background-color: #d6d7d8 ;*/
-    background-color: #d9edf7 ;
+    /*background-color: #d9edf7 ;*/
 }
 #celdas th{
     width: 250px;
