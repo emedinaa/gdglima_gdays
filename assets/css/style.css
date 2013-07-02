@@ -9,81 +9,47 @@
     margin: 0;
 }
 header img{
-    height: 176px;
-    /*left: 10%;*/
     position: relative;
-    top: 7px;
-    width: 224px;
+    top: 10px;
+    max-width: 100%;
 
 }
 header{
     width: 100%;
-    height: 180px;
+    height: 200px;
 }
+
 header #headerText{
-   position: relative;
-    top: -290px;
-    left: 25%;
-    width: 500px;
-    height:110px;
     color:#9fa2a6;
     font-size:27px;
     font-family: "open sans",arial,sans-serif;
     font-weight: 300;
+    padding-top: 30px;
 }
-header #subtext{
 
-    top:10px;
-    position: relative;
+header #subtext{
     color:#BFB9B9;
     font-size:17px;
-    font-family: "open sans",arial,sans-serif;
-    font-weight: 300;
-    width: 700px;
+}
 
-}
-header #linea{
-    position: relative;
-    top: -170px;
-    left: 23%;
-    height: 150px;
-    width: 2px;
-    background-color: #0070b8;;
-}
 header #gplus{
-    width: 115px;
-    height: 42px;
-    position:relative;
-    top:-390px;
-    left:80%;
+    padding-top: 30px;
 }
+
 header #gplus img{
     width: 115px;
     height: 42px;
 }
-.menu{/*6c7a95*/
-    background-color: #0070b8;
-    height: 153px;
-    position: relative;
-    top: 0px;
-    width: 100%;
-}
-.menu nav a{
-    display: inline-block;
-    margin: 7px auto;
-    margin-left:20px;
-    left:0px;
-    position: relative;
-}
+
 #navegador{
-   padding-left:40px;
-   width:1000px;
+   width:1050px;
    height: 153px;
    margin: 0px auto;
-   background-color: #0070b8;
+}
 
-
-
+.navbar-inner{
+    background-image: none;
+    background-color: #0070b8 !important;
 }
 .circulo{
     width: 120px;
@@ -125,20 +91,6 @@ header #gplus img{
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-/*color: #678BC7;/*Color icono (dibujito)*/
-/*#ico-presentacion{font-size: 25px;color: #678BC7;}
-#ico-agenda{font-size: 25px;color: #db4437;}
-#ico-speaker{font-size: 25px;color: #fec326;}
-#ico-sponsor{font-size: 25px;color: #678BC7;}
-#ico-fotos{font-size: 25px;color: #47aa43;}
-#ico-registrate{font-size: 30px;color: #db4437;}
-
-.circulo:hover #ico-presentacion{font-size: 30px;}
-.circulo:hover #ico-agenda{font-size: 30px;}
-.circulo:hover #ico-speaker{font-size: 30px;}
-.circulo:hover #ico-sponsor{font-size: 30px;}
-.circulo:hover #ico-fotos{font-size: 30px;}
-.circulo:hover #ico-registrate{font-size: 30px;}*/
 
 .circulo:hover #ico-presentacion{font-size: 30px;color: #678BC7;}
 .circulo:hover #ico-agenda{font-size: 30px;color: #db4437;}
@@ -197,12 +149,7 @@ header #gplus img{
     text-align: center;
     color:#999999;
 }
-/*#tt-presentacion {color: #678BC7;}/*azul*/
-/*#tt-agenda{color: #db4437;}/*rojo*/
-/*#tt-speaker{color: #fec326;}/*amarillo*/
-/*#tt-sponsor{color: #678BC7;}/*azul*/
-/*#tt-fotos{color: #47aa43;}/*verde*/
-/*#tt-registrate{color: #db4437;}/*rojo*/
+
 
 .subTituMenu{
     text-align:center;
@@ -213,7 +160,7 @@ header #gplus img{
     width: 170px;
     left: 50%;
     margin-left: -85px;
-    top: 30px;
+    top: 60px;
     opacity: 0;
     -webkit-transition: all 400ms linear;
     -moz-transition: all 400ms linear;
@@ -221,22 +168,7 @@ header #gplus img{
     -ms-transition: all 400ms linear;
     transition: all 400ms linear;
 }
-/*.textMenu, .tituMenu, .subTituMenu{
-    text-align: left;
-    width: 100%;
-    height: 100%;
-    display: block;
-    color: #333;
-    position: relative;
-    box-shadow:0px 0px 3px #000000;
-    -moz-box-shadow:0px 0px 3px #000000;
-    -webkit-box-shadow:0px 0px 3px #000000;
-    font-family: 'Terminal Dosis', Arial, sans-serif;
 
-}*/
-
-
-/*Contenido*/
 #titu-contenido{
     position: relative;
     top: 35px;
@@ -354,6 +286,10 @@ width: 100%;
 
 .table-bordered, .table-bordered th{
     border: none;
+}
+
+.space-content{
+    margin-top: 20px;
 }
 
 /*Footer*/
@@ -520,6 +456,5 @@ padding: 200px;
 width: 1000px;
 height: 300px;
 }
-
 
 
